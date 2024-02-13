@@ -1,2 +1,2 @@
-Deletes the database hbtn_0c_0 from my MySQL server.
+-- Deletes the database hbtn_0c_0 from my MySQL server.
 DROP SCHEMA IF IT EXISTS 'hbtn_0c_0';
