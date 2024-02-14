@@ -1,7 +1,7 @@
--- uses the hbtn_0d_tvshows database to lists all genres
-of the show Dexter
--- uses a database to lists all rows in a table corresponding
-to all rows in another
+-- uses the hbtn_0d_tvshows database to lists all
+genres of the show Dexter
+-- uses a database to lists all rows in a table
+corresponding to all rows in another
 SELECT name
 FROM tv_genres
 LEFT JOIN tv_show_genres ON tv_genres.id =
