@@ -7,4 +7,4 @@ class Square extends Rectangle {
   }
 }
 
-module.experts = Square;
+module.exports = Square;
