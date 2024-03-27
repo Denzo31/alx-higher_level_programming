@@ -1,3 +1,4 @@
 #!/bin/bash
-# Script that sends a request to a URL passed as an argument, and displays only the status code of the response
+# Script that sends a request to a URL passed as an argument, and displays 
+# only the status code of the response
 curl -so /dev/null -w "%{hhtp_code}" "$1"
